@@ -2,11 +2,16 @@
     width: 70px;
     height: 70px;
     background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
 }
 
 .step_cont{
     display: flex;
     justify-content: center;
+    
     gap: 20px;
 }
 
@@ -20,4 +25,8 @@
     display: flex;
     gap: 20px;
     justify-content: flex-end;
+}
+
+.item{
+    font-size: 30px;
 }

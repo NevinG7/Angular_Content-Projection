@@ -1,9 +1,9 @@
 
 <div class="step_cont">
-    <div class="step" (click)="setStep(1)">1</div>
-    <div class="step"(click)="setStep(2)">2</div>
-    <div class="step"(click)="setStep(3)">3</div>
-    <div class="step"(click)="setStep(4)">4</div>
+    <div class="step" (click)="setStep(1)"> <i class="glyphicon glyphicon-folder-open item"></i></div>
+    <div class="step"(click)="setStep(2)"><i class="glyphicon glyphicon-pencil item"></i></div>
+    <div class="step"(click)="setStep(3)"><i class="glyphicon glyphicon-picture item"></i></div>
+    <div class="step"(click)="setStep(4)"><i class="glyphicon glyphicon-ok item"></i></div>
 </div>
 <div *ngIf="expanded">
     <ng-content></ng-content>
